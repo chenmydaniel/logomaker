@@ -1,0 +1,278 @@
+/* ========== 基础字体定义 ========== */
+
+/* 系统默认字体栈 */
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: Georgia, 'Times New Roman', Times, serif;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+/* 主字体 */
+body {
+  font-family: var(--font-sans);
+}
+
+/* ========== 自定义字体 ========== */
+
+/* 主要字体 - 只包含 Regular 字重 */
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('./fonts/Great_Vibes/GreatVibes-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/static/Roboto-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('./fonts/Dancing_Script/static/DancingScript-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/Raleway/static/Raleway-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('./fonts/Oswald/static/Oswald-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('./fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('./fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arvo';
+  src: url('./fonts/Arvo/Arvo-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('./fonts/Bangers/Bangers-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('./fonts/Cinzel/static/Cinzel-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/static/Dosis-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fjalla One';
+  src: url('./fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('./fonts/Indie_Flower/IndieFlower-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./fonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url('./fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('./fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./fonts/Merriweather/static/Merriweather_48pt-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('./fonts/Poiret_One/PoiretOne-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand/static/Quicksand-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shadows Into Light';
+  src: url('./fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Special Elite';
+  src: url('./fonts/Special_Elite/SpecialElite-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tangerine';
+  src: url('./fonts/Tangerine/Tangerine-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('./fonts/Vollkorn/static/Vollkorn-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aladin';
+  src: url('./fonts/Aladin/Aladin-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barriecito';
+  src: url('./fonts/Barriecito/Barriecito-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eater';
+  src: url('./fonts/Eater/Eater-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+.control-panel {
+  background-color: #f0f4f8;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: calc(100vh - 10rem); /* 减少头部和底部高度，增加主区域空间 */
+  overflow-y: auto; /* 仅设置区滚动 */
+}
+.preview-area {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* 铺满主展示区 */
+  height: 100%; /* 铺满主展示区 */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none; /* 防止拖动时选中文本 */
+}
+.color-picker {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+  cursor: pointer;
+}
+.font-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.font-preview-text {
+  font-size: 2.5rem; /* 增大字体大小 */
+  line-height: 3.0;   /* 增大行高 */
+}
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    .main-container { margin-bottom: 0; margin-top: 0.5rem; }
+  }
+  .control-panel, .preview-container {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+  .control-panel {
+    height: auto;
+    max-height: 50vh;
+  }
+  .preview-area {
+    height: 200px;
+  }
+  .font-preview-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

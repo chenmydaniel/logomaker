@@ -1,0 +1,26 @@
+{
+  "name": "yourlogomaker",
+  "version": "1.0.0",
+  "description": "一个简单的在线Logo制作工具",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logo",
+    "design",
+    "svg",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.3",
+    "rollup-plugin-visualizer": "^5.14.0",
+    "vite": "^6.3.5"
+  }
+}
